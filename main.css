@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 20px auto;
+    padding: 0;
+}
+
+body, 
+input, 
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+h1 {
+    height: 30px;
+    margin: 5px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    margin: 5px;
+}
+
+
+
+form input,
+form textarea,
+form button {
+    display:block;
+    height: 24px;
+    width: 500px;
+    margin-bottom: 8px;
+    margin: 5px;
+    font-size: 12px;
+}
+
+form textarea {
+    resize: none;
+    height: 35px;
+}
+
+form button {
+    background-color: #28cb5b;
+    color: #eff3f0;
+    border-color: #82df9f;
+    cursor: pointer;
+    margin: 0 30;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 20px;
+    height: 30px;
+}
+
+form button:hover {
+    background-color: #8de28a;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #8de28a;
+}
+
+.success-message {
+    background-color: #28cb5b;
+    padding: 16px;
+    color: whitesmoke ;
+    display: none;
+}
+
+.error-message {
+    font-size: 12px;
+    background-color: red;
+    padding: 8px;
+    color: whitesmoke;
+    margin-bottom: 8px;
+    display: none;
+}
+
+input.error {
+    color: red;
+    border-color: red;
+    outline-color: red;
+}
