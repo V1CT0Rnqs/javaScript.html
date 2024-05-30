@@ -1,5 +1,5 @@
 const form = document.getElementById('form-deposito')
-const nomeBeneficiario = document.getElementById('nome-beneficiario';)
+const nomeBeneficiario = document.getElementById('nome-beneficiario');
 
 function validaNome(nomeCompleto) {
     const nomeComoArray = nomeCompleto.split(' ');
